@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "name": "javascript3",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfx78/Javascript3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cfx78/Javascript3/issues"
+  },
+  "homepage": "https://github.com/cfx78/Javascript3#readme",
+  "description": ""
 }
