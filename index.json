@@ -1,0 +1,31 @@
+[
+	{
+		"Brand": "Nike",
+		"Model": "AF1",
+		"Color": "Black",
+		"Size": 11,
+		"Top": {
+			"Low": true,
+			"Mid": false,
+			"High": false
+		}
+	},
+	{
+		"Brand": "Jordan",
+		"Model": "11",
+		"Color": "Bred",
+		"Size": 10.5,
+		"Top": {
+			"Low": false,
+			"Mid": true,
+			"High": false
+		}
+	},
+	{
+		"Brand": "Nike",
+		"Model": "Foamposite",
+		"Color": "Weatherman",
+		"Size": 12.5,
+		"Top": null
+	}
+]

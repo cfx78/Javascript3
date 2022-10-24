@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+			integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>HTML&CSS2</title>
+		<link rel="icon" href="images/giphy.gif" type="image/x-icon" />
+	</head>
+	<body style="background-color: #848884">
+		<a href="index.html" style="color: white"><h2>Back to home page</h2></a>
+
+		<form action="index.php" method="get" target="_blank">
+			<h2>Survey</h2>
+
+			<div>
+				<label for="firstName">First Name: </label>
+				<input
+					type="text"
+					id="firstName"
+					name="First Name"
+					placeholder="First Name.."
+					required />
+			</div>
+			<br />
+			<div>
+				<label for="lastName">Last Name: </label>
+				<input
+					type="text"
+					id="lastName"
+					name="Last Name"
+					placeholder="Last Name.."
+					required />
+			</div>
+			<br />
+			<div>
+				<label for="email">Email: </label>
+				<input
+					type="email"
+					name="email"
+					id="email"
+					placeholder="YourEmail@domain.com"
+					required />
+			</div>
+			<br />
+			<div>
+				<label for="password">Password: </label>
+				<input
+					type="password"
+					name="password"
+					id="password"
+					placeholder="Enter Your Password"
+					minlength="8"
+					maxlength="12"
+					required />
+			</div>
+			<br />
+			<div>
+				<label for="birthday">Birthday: </label>
+				<input type="date" name="birthday" id="birthday" required />
+			</div>
+			<br />
+			<div>
+				<label for="subscribe">Subscribe to Email Updates: </label>
+				<input type="checkbox" name="subscribed" id="subscribe" />
+			</div>
+			<br />
+			<div>
+				<label for="pronoun">Pronouns: </label>
+
+				<label for="M">He/Him: </label>
+				<input type="radio" name="pronoun" id="M" value="M" />
+				<label for="F">She/Her: </label>
+				<input type="radio" name="pronoun" id="F" value="F" />
+				<label for="X">They/Them: </label>
+				<input type="radio" name="pronoun" id="X" value="X" />
+			</div>
+			<br />
+			<div>
+				<label for="phoneNumber">Phone Number: </label>
+				<input
+					type="tel"
+					name="phoneNumber"
+					id="phoneNumber"
+					placeholder="(123) 456-7890"
+					required />
+			</div>
+			<br />
+			<div>
+				<label for="favColor">Favorite Color: </label>
+				<input type="color" name="favColor" id="favColor" />
+			</div>
+			<br />
+			<div>
+				<label for="kids">Children: </label>
+				<input
+					type="number"
+					name="kids"
+					id="kids"
+					min="0"
+					max="100"
+					value="50"
+					required />
+			</div>
+			<br />
+			<div>
+				<label for="weight">Enjoyment Scale: </label>
+				<input
+					type="range"
+					name="weight"
+					id="weight"
+					min="90"
+					max="600"
+					value="150" />
+			</div>
+			<br />
+			<div>
+				<label for="edu">Education Level: </label>
+				<select name="edu" id="edu">
+					<option value="GED">GED</option>
+					<option value="High School">High School</option>
+					<option value="Bachelors">Bachelors</option>
+					<option value="Masters">Masters</option>
+				</select>
+			</div>
+			<br />
+			<div>
+				<input
+					class="button"
+					id="submit"
+					type="submit"
+					value="Submit" />
+				<input class="button" id="reset" type="reset" value="Reset" />
+			</div>
+		</form>
+		<script>
+			document.querySelector('form');
+		</script>
+	</body>
+</html>
